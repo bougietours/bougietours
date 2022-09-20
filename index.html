@@ -10,21 +10,31 @@
 				box-sizing: border-box;
 				margin: 0%;
 				padding: 0%;
-				background-color: lightblue;
-				color: black;
+				background-color: #6b5a00;
+				color: white;
 			}
 			
 			header {
-				text-align: center;
 				background-image: url("https://bougietours.github.io/bougietours/imgCabecera1.jpg");
+				height: 200px;
+				width: 100%;
+				background-repeat: no-repeat;
+				background-size: cover;
 			}
 			
 			header h1 {
-				color: purple;
+				color: #ffd600;
+				background-color: #ffffff00;
+			}
+			
+			nav {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
 			}
 			
 			nav ul {
-				background-color: purple;
+				background-color: #9d8400;
 				padding: 0.5%;
 			}
 			
@@ -32,44 +42,27 @@
 				display: inline-block;
 				list-style: nome;
 				margin-left: 5%;
-				background-color: purple;
+				background-color: #9d8400;
 			}
 			
 			nav ul li a {
 				text-decoration: none;
-				color: white;
-				background-color: purple;
+				color: #ffd600;
+				background-color: #9d8400;
+				padding: 2%;
+				font-weight: bold;
 			}
 			
 			nav ul li a:hover {
-				border: 1px solid white;
-			}
-			
-			aside {
-				width: 20%;
-				margin-top: 3%;
-				float: left;
-				padding-left: 2%;
-			}
-			
-			aside ol li {
-				list-style: none;
-			}
-			
-			aside ol li a {
-				text-decoration: none;
-				color: purple;
-			}
-			
-			aside ol li a:hover {
-				text-decoration-line: underline;
+				border: 1px solid #ffd600;
+				padding: 2%;
 			}
 			
 			main {
-				width: 80%;
+				width: 100%;
 				margin-top: 3%;
-				float: right;
-				padding-right: 3%;
+				margin-right: 2%;
+				margin-left: 2%;
 			}
 			
 			main div {
@@ -95,7 +88,7 @@
 			}
 			
 			h2 {
-				color: purple;
+				color: #ffd600;
 			}
 			
 			footer {
@@ -111,7 +104,7 @@
 			}
 			
 			#aq {
-				color: magenta;
+				color: #6b5a00;
 			}
 		</style>
 	</head>
@@ -128,53 +121,6 @@
 					<li><a href="https://bougietours.github.io/bougietours/contact.html">Contact</a></li>
 				</ul>
 			</nav>
-			<aside>
-				<h2>Contactos de Interes:</h2>
-				<ol>
-					<li><a href="">Albergues</a></li>
-					<li><a href="">Alquiler de Vehiculos</a></li>
-					<li><a href="">Ambulancias</a></li>
-					<li><a href="">Asistencia en Carretera</a></li>
-					<li><a href="">Autobuses</a></li>
-					<li><a href="">Autocares</a></li>
-					<li><a href="">Aviones</a></li>
-					<li><a href="">Bancos</a></li>
-					<li><a href="">Barcos</a></li>
-					<li><a href="">Bares</a></li>
-					<li><a href="">Bodegas</a></li>
-					<li><a href="">Bomberos</a></li>
-					<li><a href="">Cafeterias</a></li>
-					<li><a href="">Campings</a></li>
-					<li><a href="">Centros Comerciales</a></li>
-					<li><a href="">Cines</a></li>
-					<li><a href="">Conciertos</a></li>
-					<li><a href="">Consulados y Embajadas</a></li>
-					<li><a href="">Correos</a></li>
-					<li><a href="">Deportes</a></li>
-					<li><a href="">Discotecas</a></li>
-					<li><a href="">Exposiciones</a></li>
-					<li><a href="">Farmacias</a></li>
-					<li><a href="">Guardia Civik</a></li>
-					<li><a href="">Guardia Forestal</a></li>
-					<li><a href="">Hospitales</a></li>
-					<li><a href="">Hoteles</a></li>
-					<li><a href="">Monumentos</a></li>
-					<li><a href="">Museos</a></li>
-					<li><a href="">Parafarmacias</a></li>
-					<li><a href="">Parques de Atracciones</a></li>
-					<li><a href="">Peluquerias</a></li>
-					<li><a href="">Policia</a></li>
-					<li><a href="">Proteccion Civil</a></li>
-					<li><a href="">Pubs</a></li>
-					<li><a href="">Rescate Maritimo</a></li>
-					<li><a href="">Restaurantes</a></li>
-					<li><a href="">SPAs</a></li>
-					<li><a href="">Supermercados</a></li>
-					<li><a href="">Taxis</a></li>
-					<li><a href="">Teatros</a></li>
-					<li><a href="">Trenes</a></li>
-				</ol>
-			</aside>
 			<main>
 				<div>
 					<section>
@@ -194,6 +140,50 @@
 							<img src="">
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 						</a>
+					</section>
+				</div>
+				<div>
+					<section>
+						<h2>Elemento 4:</h2>
+						<a href="">
+							<img src="">
+						</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</section>
+					<section>
+						<h2>Elemento 5:</h2>
+						<img src="">
+						<a href="">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</a>
+					</section>
+					<section>
+						<h2>Elemento 6:</h2>
+						<img src="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<button>Enlace 6</button>
+					</section>
+				</div>
+				<div>
+					<section>
+						<h2>Elemento 4:</h2>
+						<a href="">
+							<img src="">
+						</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</section>
+					<section>
+						<h2>Elemento 5:</h2>
+						<img src="">
+						<a href="">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</a>
+					</section>
+					<section>
+						<h2>Elemento 6:</h2>
+						<img src="">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<button>Enlace 6</button>
 					</section>
 				</div>
 				<div>
