@@ -5,25 +5,37 @@
 		<meta name="viewport" content="width:device-width, initial-scale:1.0">
 		<meta name="keywords" content="sevilla, tour, hostel">
 		<title>Bougie</title>
+		<link href='https://fonts.googleapis.com/css?family=Comic Neue' rel='stylesheet'>
 		<style>
 			* {
 				box-sizing: border-box;
 				margin: 0%;
 				padding: 0%;
-				background-color: lightblue;
 				color: black;
 			}
 			
 			header {
-				text-align: center;
+				height: 200px;
+				width: 100%;
 			}
 			
 			header h1 {
-				color: purple;
+				font-family: "Comic Neue", sans-serif;
+				color: #888686;
+				background-color: #ffffff00;
+				text-align: center;
+				font-size: 6vw;
+				margin-top: 4%;
+			}
+			
+			nav {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
 			}
 			
 			nav ul {
-				background-color: purple;
+				background-color: #dddddd;
 				padding: 0.5%;
 			}
 			
@@ -31,44 +43,26 @@
 				display: inline-block;
 				list-style: nome;
 				margin-left: 5%;
-				background-color: purple;
+				background-color: #dddddd;
 			}
 			
 			nav ul li a {
+				font-family: "Comic Neue", sans-serif;
 				text-decoration: none;
-				color: white;
-				background-color: purple;
+				color: #darkblue;
+				background-color: #dddddd;
+				padding: 2%;
+				font-weight: bold;
 			}
 			
 			nav ul li a:hover {
-				border: 1px solid white;
+				border: 2px solid #888686;
+				padding: 2%;
 			}
-			
-			aside {
-				width: 20%;
-				margin-top: 3%;
-				float: left;
-				padding-left: 2%;
-			}
-			
-			aside ol li {
-				list-style: none;
-			}
-			
-			aside ol li a {
-				text-decoration: none;
-				color: purple;
-			}
-			
-			aside ol li a:hover {
-				text-decoration-line: underline;
-			}
-			
+
 			main {
-				width: 80%;
+				width: 100%;
 				margin-top: 3%;
-				float: right;
-				padding-right: 3%;
 			}
 			
 			main div {
@@ -78,23 +72,29 @@
 			}
 			
 			main div section {
-				width: 32%;
+				width: 21%;
 				display: inline-block;
-				margin: 0%;
-				padding-left: 3%;
-				padding-right: 3%;
+				margin-left: 3%;
+				padding: 1%;
 			}
 			
-			main div a {
+			main div section a {
 				text-decoration: none;
 			}
 			
-			main div a:hover {
-				text-decoration-line: underline;
+			main div section:hover {
+				border: 2px solid #888686;
+				border-radius: 20px;
+			}
+			
+			main div section img {
+				width: 100%;
+				max-height: 10vw;
 			}
 			
 			h2 {
-				color: purple;
+				font-family: "Comic Neue", sans-serif;
+				color: #888686;
 			}
 			
 			footer {
@@ -110,7 +110,7 @@
 			}
 			
 			#aq {
-				color: magenta;
+				color: black;
 			}
 		</style>
 	</head>
